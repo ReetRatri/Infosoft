@@ -52,3 +52,6 @@ print('----------------------------------------')
 
 
 # new ha iyae 
+
+
+#by new2 abhi kia hai 
