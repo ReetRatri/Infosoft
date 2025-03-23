@@ -1,3 +1,7 @@
+# Infosoft
+
+# Problem 3 
+
 
 # Problem Description
 The "Calendar" class was designed to allow users to schedule events without causing overlaps. However, the original implementation had issues in detecting overlaps and maintaining a binary tree structure.
