@@ -27,6 +27,12 @@ class College_Formdata(models.Model):
     
 
 
+class College_Formdata(models.Model):
+    college_name = models.CharField(max_length=100)
+    college_address = models.CharField(max_length=100)
+    
+
+
 class Formdata(models.Model):
     # class Meta:
     #    __all__ = ["Formdata"]

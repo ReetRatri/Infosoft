@@ -20,9 +20,11 @@ class FuelStation:
             return False
         self.spots[fuel_type] += 1
         return True
-
+mnkllkm
 fuel_station = FuelStation(diesel=2, petrol=2, electric=1)
 
+print(fuel_station.fuel_vehicle("diesel"))    
+print(fuel_station.fuel_vehicle("petrol"))    
 print(fuel_station.fuel_vehicle("diesel"))    
 print(fuel_station.fuel_vehicle("petrol"))    
 print(fuel_station.fuel_vehicle("diesel"))    
