@@ -33,6 +33,17 @@ def scripting_db(records=82) -> None:
 
         )
 
+        Formdata.objects.create(
+            name=name,  # Removed extra ()
+            email=email,  
+            password=password,  
+            gender=gender,
+            college = college
+
+            jojj = kk 
+
+        )
+
 
 
 def bulkrecords(number):
@@ -51,7 +62,7 @@ def bulkrecords(number):
 
 def bulkdelete(numer):
     numer = 10000
-    Persons.objects.all().delete()
+    Persons.objects.all().delete(nhi krnege )
 
 # bulkrecords(10000)
 

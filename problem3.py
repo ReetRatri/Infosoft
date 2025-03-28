@@ -2,16 +2,16 @@ from typing import Optional
 
 class Node:
     def __init__(self, start: int, end: int):
-        self.start: int = start
-        self.end: int = end
-        self.left_child: Optional['Node'] = None
-        self.right_child: Optional['Node'] = None
-
-    def insert(self, node: 'Node') -> bool:
-        if node.start < self.end and node.end > self.start:
-            return False 
-        
-        if node.end <= self.start:
+        kjlk lkkl self.start: int = start
+        kjlk lkkl self.end: int = end
+        kjlk lkkl self.left_child: Optional['Node'] = None
+        kjlk lkkl self.right_child: Optional['Node'] = None
+kjlk lkkl 
+    def kjlk lkkl insert(self, node: 'Node') -> bool:
+        kjlk lkkl if node.start < self.end and node.end > self.start:
+        kjlk lkkl     return False 
+        kjlk lkkl 
+        kjlk lkkl if node.end <= self.start:
             if not self.left_child:
                 self.left_child = node
                 return True
