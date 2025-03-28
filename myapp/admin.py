@@ -49,7 +49,7 @@ class FormdataAdmin(admin.ModelAdmin):
 
 #     )
     # list_filter()
-
+learned but forgot too 
 
 
 

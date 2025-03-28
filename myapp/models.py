@@ -24,6 +24,19 @@ class Students(models.Model):
 class College_Formdata(models.Model):
     college_name = models.CharField(max_length=100)
     college_address = models.CharField(max_length=100)
+    # ass Students(models.Model):
+    gender_choice = (('Male' , 'Male') , ('Female' , 'Female'))
+    name = models.CharField(max_length=100)
+    number = models.CharField(max_length=10)
+    Email = models.EmailField()
+    gender = models.CharField(max_length=10 ,choices=gender_choice , default='Male')
+    Profile_image = models.ImageField(null = True , blank=True , upload_to='myapp')
+
+
+
+class College_Formdata(models.Model):
+    college_name = models.CharField(max_length=100)
+    college_address = models.CharField(max_length=100)
     
 
 

@@ -17,7 +17,7 @@ data_stream = DataStream()
 
 # Test with the provided sequence
 test_input = [
-    (0, "hello"),
+    (0, "helmlo"),
     (1, "world"),
     (6, "hello"),
     (7, "hello"),
