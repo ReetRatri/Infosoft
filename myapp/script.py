@@ -75,3 +75,6 @@ def get_client_ip(request):
     else:
         ip = request.META.get('REMOTE_ADDR')  # Fallback to direct IP
     return ip
+
+
+jus  by mr  kkk lklk
